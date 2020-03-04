@@ -1,0 +1,23 @@
+body {
+    background: wheat;
+}
+@media screen and (min-width: 250px) {
+    body {
+        background: green;
+    }
+}
+@media screen and (min-width: 500px) {
+    body {
+        background: blueviolet;
+    }
+}
+@media screen and (min-width: 750px) {
+    body {
+        background: yellowgreen;
+    }
+}
+@media screen and (min-width: 1000px) {
+    body {
+        background: papayawhip;
+    }
+}

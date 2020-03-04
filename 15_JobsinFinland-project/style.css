@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid-head {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0;
+  min-height: 80px;
+}
+.item {
+  padding: 1rem;
+  min-height: 100px;
+  background: white;
+}
+.logo {
+  grid-column: 1 / span 2;
+  text-align: left;
+  color: blue;
+}
+.wfinland {
+  grid-column: 3 / span 2;
+  text-align: end;
+  color: blue;
+}
+header {
+  background-color: blue;
+}
+
+ul li {
+  display: inline;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+#jhome a:hover {
+  background-color: white;
+}
+.section-a {
+  background: url("https://source.unsplash.com/featured/laptop") no-repeat
+    center center / cover;
+  height: 500px;
+}
+
+.text1 {
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+}
+.text2 {
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+/* explore by category*/
+.explore-text1 {
+  font-size: 2.5rem;
+  color: blue;
+  margin: 30px;
+}
+.explore-text2 {
+  font-size: 1.5rem;
+  margin: 30px;
+}
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+.item1 {
+  height: 140px;
+  border-radius: 5px;
+  display: grid;
+  padding: 1rem;
+  justify-items: center;
+  align-items: center;
+  background: #22cbff;
+  color: white;
+  box-shadow: inset #333;
+  transition: background 1s ease-in;
+}
+.item1:hover {
+  background: #333;
+}
+.item1:first-child {
+  background: url("https://source.unsplash.com/featured/laptop,people");
+}
+.item1:nth-child(2) {
+  background: url("https://source.unsplash.com/featured/laptop");
+}
+.item1:nth-child(3) {
+  background: url("https://source.unsplash.com/featured/health");
+}
+.item1:nth-child(4) {
+  background: url("https://source.unsplash.com/featured/hospital");
+}
+.item1:nth-child(5) {
+  background: url("https://source.unsplash.com/featured/happy");
+}
+.item1:nth-child(6) {
+  background: url("https://source.unsplash.com/featured/manufacture");
+}
+.item1:nth-child(7) {
+  background: url("https://source.unsplash.com/featured/market");
+}
+.item1:nth-child(8) {
+  background: url("https://source.unsplash.com/featured/manager");
+}
+.item1:nth-child(9) {
+  background: url("https://source.unsplash.com/featured/service");
+}
+/* explore by regions*/
+.explore {
+  color: blue;
+  font-size: 2rem;
+  margin: 3rem;
+}
+.explore1 {
+  font-size: 1.5rem;
+  margin: 3rem;
+}
+button {
+  background: blue;
+  height: 50px;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 5px;
+  margin-left: 40px;
+  justify-items: center;
+}
+button:hover {
+  background: lightblue;
+}
