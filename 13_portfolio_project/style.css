@@ -10,7 +10,7 @@
   color: cornsilk;
 }
 .container {
-  background-image: url("laptop2.webp");
+  background: url("laptop2.webp") center center / cover;
   height: 400px;
   width: auto;
   background-color: #333;
@@ -24,7 +24,7 @@
 }
 .btn-readmore {
   color: darkcyan;
-  margin-left: 3rem;
+  
 }
 #section {
   height: 50px;

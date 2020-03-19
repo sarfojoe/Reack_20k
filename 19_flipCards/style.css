@@ -1,0 +1,55 @@
+:root {
+  --background-color: -webkit-linear-gradient(left, #82667c, #1dcc3e);
+  background: -moz-linear-gradient(left, #82667c, #1dcc3e);
+  background: linear-gradient(to right, #82667c, #1dcc3e);
+  --primary-color: skyblue;
+  --secondary-color: sandybrown;
+}
+body {
+  height: 100vh;
+  text-align: center;
+}
+h1 {
+  color: white;
+  text-transform: uppercase;
+  margin: 5rem;
+}
+.flip-card {
+  height: 200px;
+  width: 150px;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.card {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  position: absolute;
+  backface-visibility: hidden;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+}
+.flip-card-front {
+  background-image: url("rose.jpeg");
+}
+.flip-card-back {
+  background: var(--secondary-color);
+  transform: rotateY(180deg);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}

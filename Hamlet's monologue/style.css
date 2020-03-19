@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: cornsilk;
+    font-family: sans-serif;
+}
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+.author {
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+}
+.heading {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+.poem {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 30px;
+}

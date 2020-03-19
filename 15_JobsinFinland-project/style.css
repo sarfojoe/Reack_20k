@@ -74,12 +74,13 @@ a {
 .content-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
+  padding: 1rem;
 }
 .item1 {
-  height: 140px;
+  height: 180px;
   border-radius: 5px;
   display: grid;
+  margin: 1rem;
   padding: 1rem;
   justify-items: center;
   align-items: center;
@@ -87,6 +88,7 @@ a {
   color: white;
   box-shadow: inset #333;
   transition: background 1s ease-in;
+  font-size: 2rem;
 }
 .item1:hover {
   background: #333;
@@ -131,7 +133,7 @@ a {
 button {
   background: blue;
   height: 50px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
   border-radius: 5px;
   margin-left: 40px;
@@ -139,4 +141,72 @@ button {
 }
 button:hover {
   background: lightblue;
+}
+.region-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+  text-decoration: none;
+}
+.region {
+  height: 180px;
+  border-radius: 5px;
+  display: grid;
+  padding: 1rem;
+  margin: 1rem;
+  justify-items: center;
+  align-items: center;
+  color: white;
+  box-shadow: inset #333;
+  transition: background 1s ease-in;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.region:first-child {
+  background: url("https://source.unsplash.com/featured/laptop");
+}
+.region:nth-child(2) {
+  background: url("https://source.unsplash.com/featured/love");
+}
+.region:nth-child(3) {
+  background: url("https://source.unsplash.com/featured/sun");
+}
+.region:nth-child(4) {
+  background: url("https://source.unsplash.com/featured/moon");
+}
+.region:nth-child(5) {
+  background: url("https://source.unsplash.com/featured/dress");
+}
+.region:nth-child(6) {
+  background: url("https://source.unsplash.com/featured/city");
+}
+.region:nth-child(7) {
+  background: url("https://source.unsplash.com/featured/shop");
+}
+.region:nth-child(8) {
+  background: url("https://source.unsplash.com/featured/train");
+}
+.region:nth-child(9) {
+  background: url("https://source.unsplash.com/featured/ship");
+}
+.region:nth-child(10) {
+  background: url("https://source.unsplash.com/featured/trust");
+}
+.region:nth-child(11) {
+  background: url("https://source.unsplash.com/featured/car");
+}
+.region:nth-child(12) {
+  background: url("https://source.unsplash.com/featured/phone");
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+.footer {
+  align-content: center;
+  height: 150px;
+  list-style-type: none;
+  color: white;
+  background: blue;
 }
