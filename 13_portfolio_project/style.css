@@ -2,16 +2,67 @@
   margin: 0;
   padding: 0;
 }
-.header {
+header {
   display: flex;
   background-color: black;
+  min-height: 20px;
+}
+@media screen and (min-width: 660px) {
+  header {
+      float: none;
+      width: 100%;
+  }
 }
 .logo {
   color: cornsilk;
+  margin: 2rem;
+  float: left;
 }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: lightblue;
+  color: #333;
+  font-size: 15px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 56rem;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: cornsilk;}
 .container {
   background: url("laptop2.webp") center center / cover;
-  height: 400px;
+  height: 500px;
   width: auto;
   background-color: #333;
   display: flex;
@@ -20,11 +71,19 @@
 }
 .text {
   color: cornsilk;
-  margin-left: 30px;
+  margin-left: 40px;
 }
-.btn-readmore {
-  color: darkcyan;
-  
+
+button {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 40px;
+  color: #333;
+
+}
+button:hover {
+  background: lightblue;
 }
 #section {
   height: 50px;
@@ -35,13 +94,10 @@
 #section-a {
   display: flex;
 }
-.image2 {
-  margin-left: 50px;
-  margin-top: 50px;
-}
+
 img {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 40px;
+
 }
 ul {
   margin-left: 2rem;
@@ -89,7 +145,7 @@ ul {
   background: black;
   color: #fff;
   display: flex;
-  margin-bottom: 30px;
+  min-height: 200px;
 }
 .text4 {
   margin-left: 100px;
@@ -104,6 +160,10 @@ ul {
 .contact {
   margin-left: 20px;
   margin-top: 50px;
+}
+input {
+  width: 100%;
+  
 }
 
 body {
