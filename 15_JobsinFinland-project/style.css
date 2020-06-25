@@ -318,8 +318,9 @@ button {
   text-decoration: underline;
 }
 #ScrollTopBtn {
-  background: #b1bab9;
+  background: #389eda;
   width: 4rem;
   height: 3rem;
+  border-radius: 5px;
   color: #0548b3;
 }
