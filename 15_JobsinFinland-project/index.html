@@ -1,108 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs in Finland</title>
-  </head>
-  <div class="grid-head">
-    <div class="item logo">
-      <h1>JOBS IN <br />FINLAND</h1>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc8ab88b56.js"crossorigin="anonymous"></script>
+</head>
+<header>
+
+    <div class = "grid-head">
+        <div class = "item logo">
+            <h2 id="logo-text-jobs"><a href="jobs">JOBS IN</a></h2>
+            <h2 id=logo-text-finland><a href="finland">FINLAND</a></h2>  
+        </div>
+        <div class = "item work-in"><i class="fas fa-angle-double-right"></i><a href ="workInFinland">Work in Finland</a></div> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </div>
-    <div class="item wfinland">>> Work in Finland</div>
-  </div>
-  <header>
-    <div>
-      <ul>
-        <li><a href="jhome">JOBS HOME</a></li>
-        <li><a href="regions">REGIONS</a></li>
-        <li><a href="open-positions">OPEN POSITIONS</a></li>
-        <li><a href="about">ABOUT</a></li>
-        <li><a href="for-employment">FOR EMPLOYMENT</a></li>
-      </ul>
-    </div>
-  </header>
-  <body>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="jobs-home">JOBS HOME</a></li>
+            <li><a href="regions">REGIONS</a>
+              <ul class="dropdown">
+                    <li><a href="turku">Turku & Southwest Finland</a></li>
+                     <li><a href="lapland">Lapland</a></li>
+                     <li><a href="lakeland">Lakeland</a>
+                     <li><a href="helsink">Helsinki Region</a></li>
+                     <li><a href="espoo">Espoo</a></li>
+                     <li><a href="tampere">Tampere</a></li>
+                     <li><a href="oulu">Oulu</a></li>
+                     <li><a href="talent">Talent Coastline</a></li>
+                     <li><a href="kuopio">Kuopio</a></li>
+              </ul>
+            </li>
+            <li><a href="positions">OPEN POSITIONS</a></li>
+            <li><a href="about">ABOUT</a></li>
+            <li><a href="employer">FOR EMPLOYERS</a></li>
+            <li class="active">
+    	            <i class="fa fa-search" aria-hidden="true"></i>
+		                 <div class="search-box">
+                            <input type="text"placeholder="Search"/>
+                            <i class="fas fa-search"></i>
+  		                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>
     <section class="section-a">
-      <div class="text1">
-        <h1>
-          <span>JOBS</span> IN <br />
-          FINLAND
-        </h1>
-      </div>
-      <div class="text2">
-        WELCOME TO EXPLORE OPEN JOB OPPORTUNITIES IN FINLAND. HERE YOU CAN FIND
-        JOBS TARGETED AT ENGLISH SPEAKING PEOFESSIONNALS. YOU CAN SEARCH BY
-        REGION, JOBS CATEGORY OR USE THE KEYWORD SEARCH.
-      </div>
+        <div class="body-heading">
+        <b>JOBS </b>IN<br>FINLAND
+         </div>
+        <div class="body-text1">
+            <p>WELCOME TO EXLORE OPEN JOB
+             OPPORTUNITIES IN FINLAND <br>HERE
+             YOU CAN FIND JOBS TARGETED AT
+             ENGLSIH SPEAKING<br>PROFESSIONALS.<br>
+             YOU CAN SEARCH REGION, JOB
+             CATEGORY OR USE THE<br> KEYWORD
+             SEARCH</p>
+       </div>
     </section>
     <section class="section-b">
-      <div class="explore-text1"><h1>EXPLORE BY CATEGORY</h1></div>
-      <div class="explore-text2">
-        Browse open positions in your field of expertise. If you dont find a
-        suitanble category, you can try a catgory close to your expertise or use
-        the keyword search
-      </div>
+        <div class="explore">
+            <div class="explore-text1">
+            <h1>EXPLORE BY CATEGORY</h1>
+        </div>
+        <div class="explore-text2">
+            <p>Browse open positions in your field of expertise. If you don’t find a<br> suitable category, you can try a category close to your expertise or use<br>the keyword search.</p>
+        </div>
     </section>
-    <section>
-      <div class="content-grid">
-        <div class="item1">ACADEMIC</div>
-        <div class="item1">ENGINEERING</div>
-        <div class="item1">HEALTH</div>
-        <div class="item1">HOSPITAL</div>
-        <div class="item1">ICT</div>
-        <div class="item1">MANUFACTURING</div>
-        <div class="item1">MARKETING & SALES</div>
-        <div class="item1">PROJECT MANAGEMENT</div>
-        <div class="item1">SERVICE</div>
-      </div>
-    </section>
-    <section>
-      <div class="explore"><h1>EXPLORE BY REGION</h1></div>
-      <div class="explore1">
-        <p>
-          Browse open positions by geographic location and click the cities
-          links to find out more about what the city can offer.
-        </p>
-        <br /><br />
 
-        <p>
-          Not familiar with the Finnish geography? Don’t worry, you can also
-          browse the jobs on the Finland map.
-        </p>
-      </div>
-      <button type="button">See regions on map</button>
+    <section class ="fields-grid">
+        <div class="fields"><li><a href="fields">ACADEMIC</a></li></div>
+        <div class="fields"><li><a href="fields">ENGINNERING</a></li></div>
+        <div class="fields"><li><a href="fields">FINANCE</a></li></div>
+        <div class="fields"><li><a href="fields">HEALTH</a></li></div>
+        <div class="fields"><li><a href="fields">HOSPITALITY</a></li></div>
+        <div class="fields"><li><a href="fields">ICT</a></li></div>
+        <div class="fields"><li><a href="fields">MANUFACTURING</a></li></div>
+        <div class="fields"><li><a href="fields">MARKETING & SALES</a></li></div>
+        <div class="fields"><li><a href="fields">PROJECT MANAGEMENT</a></li></div>
+        <div class="fields"><li><a href="fields">SERVICE</a></li></div>
     </section>
-    <section class="region-grid">
-      <div class="region"><li><a href="region">TURKU & SOUTHWEST FINLAND</a></li></div>
-      <div class="region"><li><a href="region">LAPLAND</a></li></div>
-      <div class="region"><li><a href="region">LAKELAND</a></li></div>
-      <div class="region"><li><a href="region">SOUTH OSTOBOTHNIA</a></li></div>
-      <div class="region"><li><a href="region">HELSINKI</a></li></div>
-      <div class="region"><li><a href="region">ESPOO</a></li></div>
-      <div class="region"><li><a href="region">TAMPERE</a></li></div>
-      <div class="region"><li><a href="region">OULU</a></li></div>
-      <div class="region"><li><a href="region">TALENT COASTLINE</a></li></div>
-      <div class="region"><li><a href="region">KUOPIO</a></li></div>
-      <div class="region"><li><a href="region">JYVÄSKYLÄ</a></li></div>
+    <section>
+        <div class="explore">
+            <div class="explore-text1">
+            <h1>EXPLORE BY REGION</h1>
+        </div>
+        <div class="explore-text2">
+            <p>Browse open positions by geographic location and click the cities links to find out more about what the city can offer.<br><br>Not familiar with the Finnish geography? Don’t worry, you can also browse the jobs on the Finland map.</p>
+        </div>
+        <button type="button">See regions on map</button>
+        <section class="region-grid">
+             <div class="region"><li><a href="region">TURKU & SOUTHWEST FINLAND</a></li></div>
+             <div class="region"><li><a href="region">LAPLAND</a></li></div>
+             <div class="region"><li><a href="region">LAKELAND</a></li></div>
+             <div class="region"><li><a href="region">SOUTH OSTOBOTHNIA</a></li></div>
+             <div class="region"><li><a href="region">HELSINKI</a></li></div>
+             <div class="region"><li><a href="region">ESPOO</a></li></div>
+             <div class="region"><li><a href="region">TAMPERE</a></li></div>
+             <div class="region"><li><a href="region">OULU</a></li></div>
+             <div class="region"><li><a href="region">TALENT COASTLINE</a></li></div>
+             <div class="region"><li><a href="region">KUOPIO</a></li></div>
+             <div class="region"><li><a href="region">JYVÄSKYLÄ</a></li></div>   
+        </section>
     </section>
     <footer>
-      <div class="footer-grid">
-        <div class="footer">JOBS<br> IN FINLAND</div>
-          <div class="footer">LINKS<br> Business Finland: Work<br> in Finland<br> The  why and how of
-             starting<br> your career in Finland. </div>
-              <div class="footer"></div>
-              <div class="footer">Contact for Companies<br> Terms of use</div>
-                <div class="footer"></div>
-                <div class="footer">Residence permits and<br> other useful information fro the Finnish<br> Immigration Service.</div>
-                <div class="footer"></div>
-                <div class="footer"></div>
-                <div class="footer"></div>
-                <div class="footer">Infofinland.fi<br> Information on moving to <br> Finland, living and working<br> here. </div>
-                <div class="footer"></div>
-                <div class="footer"></div>
-      </div>
+       <div class="footer-grid">
+            <div class="footer">JOBS<br> IN FILAND</div>
+            <div class="footer">LINKS<br><a href="business">Business Finland:Working Finland</a><br> The why and how of starting<br> your career in Finland.</div>
+            <div class="footer"></div>
+            <div class="footer"><a href="companyContacts">Contact for Compannies</a><br><a href="termsOfUse">Terms of use</a></div>
+            <div class="footer"></div>
+            <div class="footer"><a href="migri">Migri.fi</a><br>Residence permits and<br> other useful information from the Finnish<br> Immigration Service.</div>
+            <div class="footer"></div>
+            <div class="footer"></div>
+            <div class="footer"></div>
+            <div class="footer"><a href="infoFinland">Infofinland.fi</a><br>Information on moving to<br> Finland, living<br> and working here</div>
+            <div class="footer"></div>
+            <div class="footer"><button onclick="topFunction()" id="ScrollTopBtn" title="Go to top"><i class="fas fa-angle-up"></i></button></div>
+        </div>
+        <script src="script.js"></script>
     </footer>
-  </body>
+
+</body>
 </html>
